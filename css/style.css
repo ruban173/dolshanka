@@ -1,0 +1,142 @@
+.navbar{
+    background: #083857;
+
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: white;
+   background-color: #09689f;
+}
+
+.navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color:white;
+    background-color: #09689f;
+}
+.navbar-inverse .navbar-nav> li>a:hover
+{
+    color: white;
+    background-color: #09689f;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #09689f;
+    color: white;
+}
+
+/*add class*/
+
+.wrapper{
+    position: relative;
+    top: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /**/
+    height-min: 700px;
+}
+.header{
+
+    background: #f4f4f4;
+    border: 1px solid #d8dbdd;
+    border-top: 0 none;
+    padding: 20px 20px 22px 15px;
+}
+.logo,.logo:hover{
+    text-decoration: none;
+}
+.logo img {
+    float: left;
+    margin-right: 15px;
+}
+
+.gray {
+    display: block;
+    color: #888a8b;
+    font-size: 14px;
+    line-height: 13px;
+    text-transform: uppercase;
+    margin-top: 6px;
+    text-decoration: none;
+    margin-top: 2px;
+}
+.title {
+    color: #083857;
+    font-size: 27px;
+    line-height: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.header-menu>ul{
+    display: flex;
+}
+.header-menu>ul li{
+    margin-right: 15px;
+    list-style: none;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.header-menu>ul li a{
+    color: #083857;
+}
+.header-menu>ul li i{
+    font-size:30px;
+
+}
+.footer{
+    color: white;
+    background: #083857;
+    min-height: 100px;
+    width: inherit;
+}
+
+/*nav-tab*/
+.nav-tabs {
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
+.nav-tabs > li > a,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    font-weight: 600;
+    color: #083857;
+}
+/* NEWS*/
+.caption h4{
+     color:#083857
+ }
+.caption p{
+    color:#09689f;
+}
+.tab-block{
+    margin-top: 15px;
+}
+.label-default {
+    background-color: #083857;
+}
+.label {
+
+    padding: .6em 1.0em .6em;;
+    border-radius: 0;
+}
+.btn-default {
+    float: right;
+    color: #083857;
+    border-color: #09689f;
+}
+.btn-default:hover {
+    color: White;
+    border-color: #083857;
+    background: #083857;
+}
+
+/*Контакты*/
+.contacts,.contacts a{
+    color: #083857;
+    font-size: 24px;
+}
