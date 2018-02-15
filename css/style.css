@@ -34,8 +34,8 @@
     position: relative;
     top: 50px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    /**/
-    height-min: 700px;
+    padding-bottom: 115px;
+    min-height: 700px;
 }
 .header{
 
@@ -92,6 +92,8 @@
     background: #083857;
     min-height: 100px;
     width: inherit;
+    position: absolute;
+    bottom: 0px;
 }
 
 /*nav-tab*/
