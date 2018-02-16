@@ -91,9 +91,10 @@
     color: white;
     background: #083857;
     min-height: 100px;
-    width: inherit;
+    width: 100%;
     position: absolute;
     bottom: 0px;
+    margin-left: -15px;
 }
 
 /*nav-tab*/
@@ -136,9 +137,34 @@
     border-color: #083857;
     background: #083857;
 }
+.block-card .caption h3{
+color: #083857;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+}
 
 /*Контакты*/
 .contacts,.contacts a{
     color: #083857;
     font-size: 24px;
+}
+
+/*Документы*/
+.documents .glyphicon{
+    color: #09689f;
+    font-size: 2em;
+    
+}
+ .documents div{
+border: 1px solid red;
+}
+
+
+
+
+/*  Классы настройки*/
+.marginTop15{
+    margin-top: 15px;
 }
